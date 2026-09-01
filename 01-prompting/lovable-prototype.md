@@ -1,21 +1,15 @@
-# Lovable Prototype · Juno
+Lovable Prototype · Juno
+Prototype link
+https://lovable.dev/projects/ec109b93-4162-4060-bfdb-6a243bbb1f1a
 
-> Module 1 · Prompting. The clickable Lovable prototype that brings the system prompt to life.
+What it demonstrates
+The prototype demonstrates how AI can analyze user interview transcripts, identify key pain points, and generate structured product insights.
 
-## Prototype link
+Debrief
+What worked: The application successfully extracted pain points, categorized feedback, and generated a draft PRD from raw interview data.
 
-_The public Lovable share URL._
+What broke / felt like a toy: The generated insights occasionally focused on less important comments instead of the primary user pain point.
 
-_____
+What I'd change next pass: Improve prioritization logic, provide confidence scores, and allow users to edit generated insights before creating the PRD.
 
-## What it demonstrates
-
-_The one flow this prototype proves._
-
-_____
-
-## Debrief
-
-- **What worked:** _____
-- **What broke / felt like a toy:** _____
-- **What I'd change next pass:** _____
+image
