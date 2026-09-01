@@ -12,4 +12,6 @@ What broke / felt like a toy: The generated insights occasionally focused on les
 
 What I'd change next pass: Improve prioritization logic, provide confidence scores, and allow users to edit generated insights before creating the PRD.
 
-image
+
+
+
