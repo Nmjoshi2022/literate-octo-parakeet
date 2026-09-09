@@ -1,12 +1,12 @@
-# Juno PM
+# Juno PM – AI Product Management Copilot
 
-> _(one-line pitch: what Juno does, for whom, in one sentence)_
+> An AI copilot that transforms customer interviews, support tickets, and product feedback into evidence-based product insights and prioritization recommendations.
 
-_Namrata Joshi ·AIPM· Aug 17-Sep 02
+_Namrata Joshi – AI Product Management Certification – Sep 2026_
 
-This repo is my final project for the **AI Product Management Certification**. Each module's artefact lives in its own folder; this README is the dashboard and the pitch.
+Repo: https://github.com/Nmjoshi2022/literate-octo-parakeet
 
-**How to use this template:** click **Use this template → Create a new repository**, name it `juno-pm`, and commit one module's artefact per session. Assemble this dashboard with the **Final Project Deliverables Builder** (paste its `README.md` output over this file).
+This repo is my final project for the AI Product Management Certification — **Juno PM – AI Product Management Copilot**. Each module’s artefact lives in its own folder; this README is the dashboard and the pitch.
 
 ---
 
@@ -14,14 +14,14 @@ This repo is my final project for the **AI Product Management Certification**. E
 
 ### M1 · Prompting
 - **System prompt** — [`01-prompting/system-prompt.md`](01-prompting/system-prompt.md)
-- **Lovable prototype** — _(share URL)_
+- **Prototype** — N/A – Prompt prototype demonstrated through transcript analysis examples
 
 ### M2 · Strategy
 - **Decision matrix** — [`02-strategy/decision-matrix.md`](02-strategy/decision-matrix.md)
 - **AI Strategy one-pager** — [`02-strategy/strategy-one-pager.md`](02-strategy/strategy-one-pager.md)
 
 ### M3 · RAG / AI PRD
-- **AI PRD** — [`03-rag-prd/prd.md`](03-rag-prd/prd.md)
+- **AI PRD** — [`03-harness-prd/prd.md`](03-harness-prd/prd.md)
 
 ### M4 · AI-Native UX
 - **AI user flow** — [`04-ai-ux/user-flow.md`](04-ai-ux/user-flow.md)
@@ -31,7 +31,7 @@ This repo is my final project for the **AI Product Management Certification**. E
 - **Agent Workflow Spec (AWSpec)** — [`05-agentic-workflows/awspec.md`](05-agentic-workflows/awspec.md)
 - **Agent Control Panel** — [`05-agentic-workflows/agent-control-panel.md`](05-agentic-workflows/agent-control-panel.md)
 
-### M6 · Evals & Guardrails
+### M6 · Evals &amp; Guardrails
 - **Eval stack** — [`06-evals/eval-stack.md`](06-evals/eval-stack.md)
 - **Human evaluation rubric** — [`06-evals/human-rubric.md`](06-evals/human-rubric.md)
 
@@ -40,54 +40,41 @@ This repo is my final project for the **AI Product Management Certification**. E
 ## PM Execution Plan
 
 ### Where Juno is today
-_____
+- M1–M6 specced and committed.
+- M1–M6 artifacts completed and committed.
+- Juno can analyze customer interviews, support tickets, and product feedback.
+- Hybrid RAG architecture designed and validated for evidence-backed recommendations.
+- Human evaluation rubric and evaluation stack defined.
 
 ### What ships next (next 2 sprints)
-_____
+- Sprint 1: Build transcript ingestion and RAG retrieval pipeline; validate recommendation quality against the golden dataset.
+- Sprint 2: Launch pilot with Product Managers; collect feedback, calibrate prioritization logic, and refine confidence scoring.
 
 ### What I watch (dashboards)
-_____
+- Daily: recommendation acceptance rate, thumbs-up/down rate, regenerate rate.
+- Weekly: insight accuracy scores, citation grounding scores, prioritization quality scores.
+- Per release: retrieval accuracy, hallucination rate, evaluation pass rate.
 
-### Red lines (what blocks shipping — numbers, not feelings)
-_____
+### Red lines (what blocks shipping)
+- Any recommendation without supporting evidence or citation.
+- Retrieval accuracy below 95% on the golden set.
+- Hallucination rate greater than 5%.
+- Confidence score missing from recommendations.
 
 ### Governance
-_Compliance · Safety · Reliability · Reputation._
+- Privacy: customer data and support records access limited to approved sources.
+- Safety: all recommendations require citations and confidence scores.
+- Human Oversight: Product Managers retain responsibility for final prioritization and roadmap decisions.
+- Reliability: confidence-based escalation; low-confidence outputs enter Cautious Mode.
 
 ---
 
 ## Build Insights
 
-- **Friction point.** _____
-- **Key learning.** _____
-- **Aha moment.** _____
+- **Friction point.** Designing AI recommendations that remain trustworthy while ensuring Product Managers retain ownership of prioritization decisions.
+- **Key learning.** The quality of AI recommendations depends heavily on retrieval quality, evidence grounding, and clear guardrails rather than model intelligence alone.
+- **Aha moment.** The true value of AI in product management is not making decisions autonomously but helping PMs synthesize large volumes of feedback faster and with stronger evidence.
 
 ---
 
-## Repo structure
-
-```
-juno-pm/
-├── README.md                          ← this dashboard + pitch
-├── 01-prompting/
-│   ├── system-prompt.md               ← M1: Juno's system prompt
-│   └── lovable-prototype.md           ← M1: prototype link + debrief
-├── 02-strategy/
-│   ├── decision-matrix.md             ← M2: build / buy / fine-tune / partner call
-│   └── strategy-one-pager.md          ← M2: AI strategy one-pager
-├── 03-rag-prd/
-│   └── prd.md                         ← M3: AI PRD with retrieval requirements
-├── 04-ai-ux/
-│   ├── user-flow.md                   ← M4: AI-native user flow
-│   └── trust-gaps.md                  ← M4: trust-gap mitigations
-├── 05-agentic-workflows/
-│   ├── awspec.md                      ← M5: Agent Workflow Spec
-│   └── agent-control-panel.md         ← M5: Agent Control Panel
-└── 06-evals/
-    ├── eval-stack.md                  ← M6: layered eval stack
-    └── human-rubric.md                ← M6: human evaluation rubric
-```
-
----
-
-_Certification submission — AI Product Management Certification._
+_Certification submission — AI Product Management Certification.
